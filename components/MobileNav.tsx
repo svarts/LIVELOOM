@@ -33,14 +33,17 @@ const MobileNav = () => {
           />
         </SheetTrigger>
         <SheetContent side="left" className="border-none bg-dark-1">
-          <Link href="/" className="flex items-center gap-1">
+          <Link href="/" className="flex items-center gap-1 -ml-7">
             <Image
-              className="w-[100px]"
-              src="/icons/poom-logo.png"
+              className="max-sm:w-[100px]"
+              src="/icons/logo.png"
               alt="logo"
-              width={200}
-              height={75}
+              width={80}
+              height={80}
             />
+            <h1 className="uppercase text-[#2cbfae] font-black md:text-2xl text-xl -ml-3">
+              LiveLoom
+            </h1>
           </Link>
           <div className="h-[calc(100dvh-72px)] flex-between flex-col overflow-y-auto">
             <SheetClose asChild>
