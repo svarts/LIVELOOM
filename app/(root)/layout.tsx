@@ -8,9 +8,9 @@ import { Toaster } from "@/components/ui/toaster";
 const barlow = Barlow({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "POOM - usefull video calling app",
+  title: "LIVELOOM - usefull video calling app",
   description:
-    "Poom - a lite version of ZOOM, which has the same functionality for private communication!",
+    "LiveLoom - a lite version of ZOOM, which has the same functionality for private communication!",
 };
 
 const RootLayout = ({ children }: { children: ReactNode }) => {

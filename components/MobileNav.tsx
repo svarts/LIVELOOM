@@ -37,7 +37,7 @@ const MobileNav = () => {
             <Image
               className="w-[100px]"
               src="/icons/poom-logo.png"
-              alt="Poom logo"
+              alt="logo"
               width={200}
               height={75}
             />

@@ -62,7 +62,7 @@ export default function NotFound() {
           }}
         >
           <h1 className="cursor-grab max-w-3xl bg-gradient-to-br from-white to-gray-400 bg-clip-text text-center text-3xl font-medium leading-tight text-transparent sm:text-5xl sm:leading-tight md:text-7xl md:leading-tight">
-            POOM 404
+            LIVELOOM 404
           </h1>
         </motion.div>
         <p className="my-16 max-w-2xl text-center text-base leading-relaxed md:text-xl md:leading-relaxed">

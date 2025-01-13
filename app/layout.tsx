@@ -8,9 +8,9 @@ import "./globals.css";
 const roboto = Roboto({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "POOM - usefull video calling app",
+  title: "LIVELOOM - usefull video calling app",
   description:
-    "Poom - a lite version of ZOOM, which has the same functionality for private communication!",
+    "Liveloom - a lite version of ZOOM, which has the same functionality for private communication!",
 };
 
 export default function RootLayout({
@@ -20,21 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <ClerkProvider
-      // appearance={{
-      //   layout: {
-      //     socialButtonsVariant: "iconButton",
-      //     logoImageUrl: "/icons/poom-logo.png",
-      //   },
-      //   variables: {
-      //     colorText: "#fff",
-      //     colorPrimary: "#0E78F9",
-      //     colorBackground: "#1C1F2E",
-      //     colorInputBackground: "#252A41",
-      //     colorInputText: "#fff",
-      //   },
-      // }}
-      >
+      <ClerkProvider>
         <body className={`${roboto.className} bg-dark-2`}>
           {children}
         </body>
