@@ -25,7 +25,7 @@ const Main = () => {
         >
           <Image
             className="animate-bounce-slow relative z-30 opacity-90 pointer-events-none"
-            src="/icons/webcam.png"
+            src="/icons/logo.png"
             width={150}
             height={150}
             alt="webcamera icon"
